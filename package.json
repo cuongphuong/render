@@ -1,0 +1,27 @@
+{
+  "name": "render",
+  "version": "1.0.0",
+  "description": "Render data to html page",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuongphuong/render.git"
+  },
+  "keywords": [
+    "render"
+  ],
+  "author": "CuongPhuong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuongphuong/render/issues"
+  },
+  "homepage": "https://cuongphuong.github.io/render/",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
